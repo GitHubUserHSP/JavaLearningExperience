@@ -1,0 +1,1 @@
+nodejs 基于chrome V8引擎的js运行环境,封装了chrome V8引擎，运行在服务端的js解释器。

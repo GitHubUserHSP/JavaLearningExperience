@@ -1,0 +1,3 @@
+都是基于apache Lucene的
+传统搜索应用solr>es,实时搜索 es>solr
+solr运用Zookeeper进行分布式管理，es自带分布式协调管理功能

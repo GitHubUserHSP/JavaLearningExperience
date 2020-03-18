@@ -1,0 +1,2 @@
+客户端TortoiseSVN delete操作后需要commit后 才会让服务器端的visualSVN也删除，
+否则相当于本地删除

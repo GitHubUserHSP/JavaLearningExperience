@@ -1,0 +1,3 @@
+Collections工具类的sort 自定义类型时要注意重写Comparable接口中的compareTo方法
+Copaarable接口的排序规则
+升序：return this.getAge()-o.gerAge();	//o是传入的参数；按年龄升序

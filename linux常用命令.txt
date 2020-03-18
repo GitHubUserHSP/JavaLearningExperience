@@ -1,0 +1,42 @@
+按两次q键 出现recording，这是记录状态。如果此时需要退出，直接按下Esc键，然后按下：后，输入退出的命令就可。
+
+退出操作：
+
+编辑文档最下方一直有recording，这是记录状态。如果此时需要退出，直接按下Esc键，然后按下：后，输入退出的命令就可。
+
+常用的退出命令：
+
+w! 强制保存，不退出vi
+
+wq 保存文件并退出vi
+
+wq! 强制保存文件，并退出vi
+
+q: 不保存文件，退出vi
+
+q! 不保存文件，强制退出vi
+
+e! 放弃所有修改，从上次保存文件开始再编辑
+
+w 保存文件但不退出vi
+
+重启ssh服务 service sshd restart
+systemctl status sshd.service
+
+查看防火墙状态
+
+操作MySQL命令  systemctl stop mysqld.service
+ systemctl restart mysqld.service
+ systemctl status mysqld.service
+
+
+搜索文件 whereis my my: /etc/my.cnf
+
+find / -name mysql
+
+端口使用情况 netstat -anp | grep 8800   //netstat -anp | grep <端口号>
+不等价于-ano
+
+chmod 777 start.sh  //赋予管理员权限
+nohup  ./start.sh &  //不间断运行文件内的指
+
